@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+      font-family: Arial, sans-serif;
+    }
+    .container {
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    input[type="text"] {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+    }
+    button {
+      padding: 10px 20px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      cursor: pointer;
+      border-radius: 4px;
+    }
+    .generate-btn {
+      background-color: #4CAF50;
+      margin-right: 10px;
+    }
+    .download-btn {
+      background-color: #008CBA;
+    }
+    div{
+        height: 50px;
+        width: 20%;
+        margin: auto;
+        text-align: center;
+    }
+    h1{
+    font-size: 110px ;
+    font-weight: 900;
+    -webkit-text-stroke:4px #000;
+    color: transparent;
+    text-align: center;
+}
+    </style>
+</head>
+<body>
+      <h1>QrCode Generator</h1>
+     <div class="container">
+        <img src="" alt="">
+      
+        <input type="text" id="textInput" required>
+   
+        <button type="button" class="generate-btn"  id="generate">Generate</button>
+        <button type="button" class="download-btn" id="download">Download</button>
+     </div>
+   
+      
+</body>
+</html>
+<script src="script.js"></script>
